@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 
 #data download
-path = Path("C:/Users/Mio/OneDrive/Code_files/Uni_Quant/Derivatives/Data")
+path = Path("Data")
 xlsx_path = (path / "Bond_prices.xlsx").as_posix()
 
 raw_data = pd.read_excel(xlsx_path)
